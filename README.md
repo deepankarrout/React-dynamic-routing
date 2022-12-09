@@ -1,4 +1,5 @@
-# Getting Started with Create React App
+## This is a basic react app to understand how dynamic routing works and related concepts.
+# Instructions to getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

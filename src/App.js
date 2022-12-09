@@ -7,7 +7,9 @@ import CardDetails from "./CardDetails";
 function App() {
   const [card, setCard] = useState([]);
 
+  //useEffect for fetch api when page load
   useEffect(() => {
+    //fetch for api calling
     fetch("https://api.npoint.io/0d48234659b84aa388d7")
       .then((res) => res.json())
       .then((json) => {
